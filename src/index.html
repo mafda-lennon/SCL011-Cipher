@@ -7,8 +7,25 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+      <div><p>Ingresa el código del paciente:</p>
+        <input id="offset" type="text" placeholder="Código">
+        <button id="btnOffset">Ingresar</button>
+        </div>
+    
+        <div>
+        <p>Ingresa la información del paciente:</p>
+        <table>
+    
+                <textarea name="entrada_txt" id="inputText" cols="30" rows="10"></textarea>
+            
+                <button id="encode">CIFRAR</button>
+                <button id="decode">DESCIFRAR</button>
+            
+                <textarea name="salida_txt" id="outputText" cols="30" rows="10"></textarea>
+    
+        </table>
+        </div>
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

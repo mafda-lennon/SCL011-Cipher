@@ -20,21 +20,21 @@ Para los pacientes, había pensado en hacer un portal más simple, en donde sól
 
 Los primeros **diagramas** mostraban el flujo que seguía mi primera idea. Ahora con la experiencia que tuve, logro entender que no tomé en cuenta muchos factores. Era tan simple como esto:
 
-(img1.jpg)
+(https://github.com/mafda-lennon/SCL011-Cipher/blob/master/src/img1.jpg)
 
 Luego quise simplificarlo, aún con muchas ideas dando vuelta en la cabeza, pero no logré comprender bien la idea de un diagrama de flujo, esto se puede ver en la siguiente imagen:
 
-(img2.jpg)
+(https://github.com/mafda-lennon/SCL011-Cipher/blob/master/src/img2.jpg)
 
 ### Mockups
 
 Los **mockups** también fueron bastante simples al principio y más desordenados, como se muestra en las siguientes imágenes:
 
-(img3.jpg) (img4.jpg)
+(https://github.com/mafda-lennon/SCL011-Cipher/blob/master/src/img3.jpg) (https://github.com/mafda-lennon/SCL011-Cipher/blob/master/src/img4.jpg)
 
 Para cuando logré aterrizar la idea, luego de bastante feedback con mis compañeras de squad, pude hacer un mockup que se adaptara de forma más real al requerimiento. Esto se puede ver reflejado aquí:
 
-(img5.jpg) (img6.jpg)
+(https://github.com/mafda-lennon/SCL011-Cipher/blob/master/src/img5.jpg) (https://github.com/mafda-lennon/SCL011-Cipher/blob/master/src/img6.jpg)
 
 De esta forma, pude tener claridad con respecto a lo que quería, así yo mismoa podía entenderlo y explicarlo. En el feedback con otros squad, se logró entender por lo que me quedé con ese diseño e idea.
 

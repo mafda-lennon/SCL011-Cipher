@@ -1,37 +1,52 @@
 .hiddenContent{
-
-	display: none;
+    display: none;
 }
 
 body {
   font-family:Roboto;
   color:#0e5274;
-  background-image: url(https://i.ibb.co/XyDt1x7/bg-portal.jpg);
-  background-repeat: no-repeat;
+  background-image: url(bg-portal.jpg);
+  background-size: 100%;
 }
 
-.table-align{
-    width:200px;
-    margin:0 auto;
+h1 {
+    padding-bottom: 40px;
   }
+
+h2 {
+    text-align: center;
+    padding-top: 25px; 
+    padding-bottom: 40px;
+}
 
 .login {
     color: red;
 }
 
+#login {
+    text-align: center;
+}
+
 .btn-offset {
-    text-align:center;
+    text-align: center;
   }
   
-  .button{
-    color:#ffffff;
-    background-color:#527081;
-    padding-top:8px;
-    padding-bottom:8px;
-    width:100px;
-    border:medium;
-    border-radius:50px;
-    margin-top:20px;
-    text-transform:uppercase;
-    box-shadow:0px 3px 4px rgba(0, 0, 0, 0.2);
-  }
+.button{
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #0f658d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100px;
+    border: medium;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contenedor-tabla {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}

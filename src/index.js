@@ -1,4 +1,4 @@
-let user, pw, userData="fer", pwData="1234", msje, offset, email, copyBtn, otCopy, cleanBtn;
+let user, pw, userData="fer", pwData="1234", msje, offset, email, copyBtn, otCopy;
 
 //Funciones para mostrar y esconder elementos
 function hideContent(element) {
@@ -57,7 +57,7 @@ function copy() {
 }
 
 //Botón Limpiar
-cleanBtn = document.getElementById("clean").addEventListener("click", () => {
-    cleanBtn = document.getElementById("inputText").innerHTML = "";
-    cleanBtn = document.getElementById("outputText").innerHTML = "";
+document.getElementById("clean").addEventListener("click", () => {
+    document.getElementById("inputText").innerHTML = "";
+    document.getElementById("outputText").innerHTML = "";
 })

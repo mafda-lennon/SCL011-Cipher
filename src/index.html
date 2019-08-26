@@ -11,41 +11,42 @@
 
       <!-- Login -->
     <div id="login">
-      <table>
-        <tr>
-          <td><h1 class="align-center">Bienvenido al Portal de RedSalud</h1></td>
-          <td><p>Por favor ingresa con usuario: <strong>fer</strong> y contraseña: <strong>1234</strong></p></td>
-          <td><input id="user" type="text" placeholder="Usuario" required/></td>
-          <td><input id="password" type="password" placeholder="Contraseña" required/></td>
-          <td><p class="login" id="empty">Campos vacíos</p></td>
-          <td><p class="login" id="wrong">Usuario o Contraseña erróneos</p></td>
-          <td><button class="button" id="loginBtn" type="button">ENTRAR</button></td>
-        </tr>        
-      </table>
+      
+          <h1>Bienvenido al Portal de RedSalud</h1>
+          <p>Por favor ingresa con usuario: <strong>fer</strong> y contraseña: <strong>1234</strong></p>
+          <input id="user" type="text" placeholder="Usuario" required/>
+          <input id="password" type="password" placeholder="Contraseña" required/>
+          <p class="login" id="empty">Campos vacíos</p>
+          <p class="login" id="wrong">Usuario o Contraseña erróneos</p>
+          <button class="button" id="loginBtn" type="button">ENTRAR</button>
+
     </div>
     
     <!-- Contenido pt1 -->
       <div class="hiddenContent" id="content">
-        <div>   
-          <table class="table-align">
-            <p>Ingresa el código del paciente:</p>
-            <input id="offset" type="text" placeholder="Código">
-            <tr>
-             <td><button class="button" id="btnOffset" type="button">Ingresar</button></td>
-            </tr>
-          </table>
+        <div>
+          <h2>Portal ingreso de resultados exámenes alto riesgo</h2>
+          <table>
+          <p>Ingresa el código del paciente: <i>(clave numérica)</i></p>
+          <input id="offset" type="text" placeholder="Código">
+          
+          <button class="button" id="btnOffset" type="button">INGRESAR</button>
         </div>
-        
+
     <!-- Contenido pt2 -->
         <div>
           <table>
-            <p>Ingresa la información del paciente:</p>
-            <textarea name="entrada_txt" id="inputText" cols="30" rows="10"></textarea>   
-            <button class="button" id="encode">CIFRAR</button>
-            <button class="button" id="decode">DESCIFRAR</button>
-            <button class="button" id="copy">COPIAR</button>
-            <button class="button" id="clean">LIMPIAR</button>
-            <textarea name="salida_txt" id="outputText" cols="30" rows="10"></textarea>
+            <p>Ingresa la información del paciente a cifrar o descifrar:</p>
+            <tr>
+              <td><textarea name="entrada_txt" id="inputText" cols="30" rows="10"></textarea></td>
+            <td>
+              <button class="button" id="encode">CIFRAR</button>
+              <button class="button" id="decode">DESCIFRAR</button>
+              <button class="button" id="copy">COPIAR</button>
+              <button class="button" id="clean">LIMPIAR</button>
+            </td>
+            <td><textarea name="salida_txt" id="outputText" cols="30" rows="10"></textarea></td>
+            </tr>
           </table>
         </div>
       </div>

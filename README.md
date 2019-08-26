@@ -62,7 +62,7 @@ Por su parte, en el `style.css` no había agregado nada y aún me faltaba eso y 
 
 Los testeos al principio me arrojaron varios errores de sintaxis que logré resolver, para luego dar paso a los testeos de ***encode y decode***.
 
-Con respecto al diseño, tuve que hacer modificaciones ya que no logré hacer algunas cosas que tenía definidas en el mockup, pero por el bien de que el proyecto quedara funcionando, preferí dejarlos de lado (por ejemplo, el tema de que los botones quedaran todos uno abajo del otro, al medio de ambas textareas).
+Con respecto al diseño, tuve que hacer una pequeña modificación ya que no logré hacer algunas cosas que tenía definidas en el mockup, pero por el bien de que el proyecto quedara funcionando, preferí dejarlos de lado (por ejemplo que el nombre de usuario se viera reflejado en la esquina superior derecha con un "Cerrar Sesión"). Por otro lado, hice funcionar mensajes de error en el login, tanto para campos vacíos como para usuario o contraseña errónea.
 
 Logré que funcionara el cifrado/descifrado de espacios, no pude hacer funcionar correctamente el tema de los números, pero eso lo veré la próxima semana con más tiempo, luego de entregar.
 
